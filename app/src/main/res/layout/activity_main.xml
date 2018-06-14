@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:orientation="vertical"
+        android:background="#4510"
+        tools:context="com.example.android.quizapp.MainActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ques1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. President of India:"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Narendra Modi"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pranab Mukherjee"/>
+            <RadioButton
+                android:id="@+id/radQues1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ram Nath Kovind"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jai Ram Thakur"
+                android:layout_marginBottom="16dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. In which country there is winter in June-July:"/>
+        <RadioGroup
+            android:id="@+id/radio2_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"/>
+            <RadioButton
+                android:id="@+id/radioques2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Australia"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="America"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sri Lanka"
+                android:layout_marginBottom="16dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Current Prime Minister of India: "/>
+        <EditText
+            android:id="@+id/editques3_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="your answer"
+            android:inputType="textPostalAddress|textCapWords|textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Which of the following are the cities of Great Britain:"
+            android:layout_marginTop="16dp"/>
+        <CheckBox
+            android:id="@+id/checkques41_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="London"/>
+        <CheckBox
+            android:id="@+id/checkques42_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birmingham"/>
+        <CheckBox
+            android:id="@+id/checkques43_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nottingham"/>
+        <CheckBox
+            android:id="@+id/checkques44_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winchester"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/ques5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. India has recently signed Mutual Recognition Agreement (MRA) in nursing with which country:" />
+        <EditText
+            android:id="@+id/editques5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="type your answer"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPostalAddress|textCapWords|textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/ques6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Which South African city hosted the Mandela-Gandhi Youth Conference 2018:"/>
+        <RadioGroup
+            android:id="@+id/radio1_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioQues61_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cape Town"/>
+            <RadioButton
+                android:id="@+id/radioQues62_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pietermaritzburg"/>
+            <RadioButton
+                android:id="@+id/radio63_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johannesburg"/>
+            <RadioButton
+                android:id="@+id/radio64_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pretoria"
+                android:layout_marginBottom="16dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Which of the following components are used to make water:"
+            android:layout_marginTop="16dp"/>
+        <CheckBox
+            android:id="@+id/checkques81_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydrogen"/>
+        <CheckBox
+            android:id="@+id/checkques82_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oxygen"/>
+        <CheckBox
+            android:id="@+id/checkques83_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carbon"/>
+        <CheckBox
+            android:id="@+id/checkques84_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nitrogen"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/ques7_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. The first official World Bicycle Day (WBD-2018) is observed on which date:"/>
+        <RadioGroup
+            android:id="@+id/radio_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioQues71_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 1"/>
+            <RadioButton
+                android:id="@+id/radioQues72_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 2"/>
+            <RadioButton
+                android:id="@+id/radioques73_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 3"/>
+            <RadioButton
+                android:id="@+id/radioques74_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 4"
+                android:layout_marginBottom="16dp"/>
+
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:onClick="submitButton"/>
+        <TextView
+            android:id="@+id/result_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Total correct answers: 0"/>
+
+    </LinearLayout>
+
+</ScrollView>
